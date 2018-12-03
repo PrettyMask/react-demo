@@ -14,7 +14,7 @@ class App extends Component {
           <a
             className="App-link"
             href="https://reactjs.org"
-            target="_blankr"
+            target="_blank"
             rel="noopener noreferrer"
           >
             Learn React
