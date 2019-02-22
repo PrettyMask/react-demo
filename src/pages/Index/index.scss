@@ -1,0 +1,31 @@
+#Index{
+  height: 100%;
+  header{
+    width: 100%;
+    text-align: center;
+    background: #302f2f;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 15px 0;
+  }
+  .container{
+    padding-top: 30px;
+    text-align: left;
+    .item{
+      display: inline-block;
+      margin: 20px 30px;
+      padding: 10px 25px;
+      border: 2px solid #131212;
+      border-radius: 4px;
+      font-size: 19px;
+      color: #302f2f;
+      background: #ffffff;
+      &:hover{
+        transition: 0.5s;
+        color: #ffffff;
+        background: #302f2f;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+footer{
+  position: absolute;
+  bottom: 180px;
+  width: 960px;
+  .go-back{
+    width: 200px;
+    margin: 0 auto;
+    background: darkcyan;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 50px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
