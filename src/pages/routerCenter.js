@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Switch, Route} from 'react-router-dom'
 
 import Index from './Index/index';
-import Input from  '../comoponents/Input/index';
+import Input from './Input/index';
 
 class RouterCenter extends Component {
     render() {
