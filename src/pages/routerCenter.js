@@ -3,14 +3,16 @@ import {Switch, Route} from 'react-router-dom'
 
 import Index from './Index/index';
 import Input from './Input/index';
+import Test from "../comoponents/Test";
 
 class RouterCenter extends Component {
     render() {
         return (
             <Switch>
-                <Route path='/' exact component={Index}/>
-                <Route path='/index' exact component={Index}/>
-                <Route path='/input' exact component={Input}/>
+                <Route path='/' exact component={Index} />
+                <Route path='/index' exact component={Index} />
+                <Route path='/input' exact component={Input} />
+                <Route path='/test' exact component={Test} />
             </Switch>
         );
     }
