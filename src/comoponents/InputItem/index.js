@@ -60,6 +60,14 @@ class InputItem extends React.Component {
         });
     };
 
+    onBlur = () => {
+        setTimeout(()=>{
+            this.setState({
+                showClear: false
+            })
+        },500)
+    };
+
     clear = () => {
         this.setState({comment: ''})
     };
@@ -67,7 +75,7 @@ class InputItem extends React.Component {
 
     render() {
         const {showClear, comment} = this.state;
-        const {type, onBlur, placeholder, clearText} = this.props;
+        const {type, placeholder, clearText} = this.props;
         return(
             <div className={'InputItem'}>
                 <div className={'input-wrap'}>
@@ -77,7 +85,7 @@ class InputItem extends React.Component {
                         placeholder={placeholder}
                         onChange={(e)=>this.changeInput(e)}
                         onFocus={this.onFocus}
-                        onBlur={()=>{onBlur && onBlur()}}
+                        onBlur={this.onBlur}
                     />
                     {
                         showClear &&
