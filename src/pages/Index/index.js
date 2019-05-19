@@ -13,7 +13,7 @@ class Index extends Component {
         return (
             <section id={'Index'}>
                 <header>
-                    快乐地造轮子吧
+                    快乐每一天
                 </header>
                 <div className={'container'}>
                     {
