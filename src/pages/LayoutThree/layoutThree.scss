@@ -3,93 +3,93 @@
   width: 100%;
   .absolute-layout{
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     .left{
       position: absolute;
       left: 0;
-      background: #1fb2ff;
-      width: 200px;
+      background: green;
+      width: 100px;
     }
     .center{
       position: absolute;
-      left: 200px;
-      right: 200px;
-      background: antiquewhite;
+      left: 100px;
+      right: 100px;
+      background: pink;
     }
     .right{
       position: absolute;
       right: 0;
-      background: coral;
-      width: 200px;
+      background: darkgray;
+      width: 100px;
     }
   }
   .float-layout{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     .left{
-      width: 200px;
+      width: 100px;
       float: left;
-      background: blueviolet;
+      background: green;
     }
     .center{
       overflow: hidden;
-      background: bisque;
+      background: pink;
     }
     .right{
-      width: 200px;
+      width: 100px;
       float: right;
-      background: brown;
+      background: darkgray;
     }
   }
   .flex-layout{
     display: flex;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     .left{
-      background: crimson;
-      flex-basis: 200px;
+      background: green;
+      flex-basis: 100px;
     }
     .center{
       flex-grow: 1;
-      background: burlywood;
+      background: pink;
     }
     .right{
-      flex-basis: 200px;
-      background: #1564cd;
+      flex-basis: 100px;
+      background: darkgray;
     }
   }
   .table-layout{
     display: table;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     .left{
       display: table-cell;
-      width: 200px;
-      background: #302f2f;
+      width: 100px;
+      background: green;
     }
     .center{
       width: auto;
       display: table-cell;
-      background: #61c6cd;
+      background: pink;
     }
     .right{
       display: table-cell;
-      width: 200px;
-      background: coral;
+      width: 100px;
+      background: darkgray;
     }
   }
   .grid-layout{
     display: grid;
-    grid-template-columns: 200px auto 200px;
+    grid-template-columns: 100px auto 100px;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     .left{
-      background: #d65285;
+      background: green;
     }
     .center{
-      background: #fdc844;
+      background: pink;
     }
     .right{
-      background: #13e229;
+      background: darkgray;
     }
   }
 }

@@ -1,5 +1,8 @@
+/** 三栏布局 */
+
 import React, {Component} from 'react';
 import './layoutThree.scss';
+import Bottom from "../../comoponents/Bottom";
 
 class LayoutThree extends Component{
     render() {
@@ -35,6 +38,7 @@ class LayoutThree extends Component{
                     <div className={'center'}>中</div>
                     <div className={'right'}>右</div>
                 </div>
+                <Bottom onClick={() => {this.props.history.goBack()}} />
             </section>
         )
     }
